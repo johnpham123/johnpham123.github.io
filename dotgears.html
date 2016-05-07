@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html class="ui-mobile">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>KOF - Kung Fu Do Fighting</title>
+
+    <link rel="Shortcut icon" href="icon128-2x.png" type="image/x-icon" />
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="dotgears_files/style.css">
+    <link rel="stylesheet" href="dotgears_files/global.css">
+
+</head>
+
+<script type='text/javascript'>
+	//change shotcut icon
+	var textArray = [
+	'dotgears_files/iTunesArtwork.png'
+	];
+    var link = document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';	
+	var randomNumber = Math.floor(Math.random()*textArray.length);
+	link.href = textArray[randomNumber];
+	document.getElementsByTagName('head')[0].appendChild(link);
+	
+	
+	
+	//disable mouse menu
+    var disabled_message = '';
+    document.oncontextmenu = function() {
+        return false;
+    }
+    document.onmousedown = function md(e) {
+        try {
+            if (event.button == 2 || event.button == 3) {
+                if (disabled_message != '') alert(disabled_message);
+                return false;
+            }
+        } catch (e) {
+            if (e.which == 3) return false;
+        }
+    }
+</script>
+
+<!-- import JQuery
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
+ 
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			alert("JQuery is working! :D");
+		});
+	</script>
+	-->
+
+<body oncontextmenu='return false'>
+
+    <script>
+        function getRequests() {
+            var s1 = location.search.substring(1, location.search.length).split('&'),
+                r = {},
+                s2, i;
+            for (i = 0; i < s1.length; i += 1) {
+                s2 = s1[i].split('=');
+                r[decodeURIComponent(s2[0]).toLowerCase()] = decodeURIComponent(s2[1]);
+            }
+            return r;
+        };
+
+        var QueryString = getRequests();
+        //alert("id = " + QueryString["id"] + "; host = " + QueryString["host"]);
+
+
+
+
+ 
+    </script>
+
+
+
+
+
+    <div id="wapper">
+
+        <div id="headerr">
+            <div class="header-inner">
+
+                <a href="" class="logo-me"></a>
+                <h1 style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KOF - Kung Fu Do Fighting</h1>
+
+                <ul class="menu">
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div style="min-height: 445px;" id="contentt">
+            <br>
+            <script>
+                $(function() {
+                    $('#tab2').hide();
+
+                    $('a[href^="#tab"]').click(function() {
+                        $('a[href^="#tab"]').parent().removeClass('inactive');
+                        $(this).parent().addClass('inactive');
+
+                        $('.gtab').hide();
+                        $(this.hash).show();
+
+                        //event.preventDefault();
+                        return false;
+                    });
+                });
+            </script>
+            <div class="content-white" style="padding-right: 20px;">
+                <div class="content-inner">
+
+                    <div class="item-me-show">
+
+                        <ul id="gtab">
+                            <li class="inactive"><a href="https://itunes.apple.com/app/id998174282?mt=12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        </ul>
+
+                        <div class="item-cont" style="margin-left: 21px; padding-top: 10px; display: block;">
+
+
+
+                            <div style="display: block;" class="child-item-show gtab" id="tab1">
+
+
+                                <div class="item-cont2" align="center">
+                                
+                                
+                                    <img src="dotgears_files/01.jpg">
+                                    <img src="dotgears_files/06.png">
+                                    <img src="dotgears_files/02.jpg">
+                                    <img src="dotgears_files/03.jpg">
+                                    <img src="dotgears_files/04.jpg">
+                                    <img src="dotgears_files/05.jpg">
+
+
+
+
+                                    <div class="gdesc"></div>
+
+									<div class="vgame">
+									     <div class="vdesc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+									</div>
+
+									<div class="vgame">
+                                        <a href="https://itunes.apple.com/app/id998174282?mt=12">
+                                            <img src="dotgears_files/iTunesArtwork.png">
+                                        </a>
+                                        <div class="vdesc"><b>KOF - Kung Fu Do Fighting</b>: KOF - Kung Fu Do Fighting, is the action game of fighting. The world's largest fighting contest is started! Each one for survival and honor must start the toughest fighting. Who is the strongest fighter on the earth?...</div>
+                        				<div class="vdown"><a href="https://itunes.apple.com/app/id998174282?mt=12">Download</a></div>
+                                    </div>
+									
+                                    
+
+                                </div>
+                            </div>
+
+
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+
+
+
+        <div id="bottom">
+            <div class="bottom-inner">
+                <div class="bottom-inner-1">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="bottom-inner-2">
+                    <p> <span style="font-weight: bold">        </span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
