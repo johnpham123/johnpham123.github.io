@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Dot Gears Apps</title>
+
+    <link rel="Shortcut icon" href="icon128-2x.png" type="image/x-icon" />
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="dotgears_files/style.css">
+    <link rel="stylesheet" href="dotgears_files/global.css">
+
+</head>
+
+<script type='text/javascript'>
+	//change shotcut icon
+	var textArray = [
+    'http://a1.mzstatic.com/us/r30/Purple7/v4/73/be/6c/73be6c07-cd4d-b30c-1a63-7fb1bfc0cbf4/icon256.png',
+	'http://a3.mzstatic.com/us/r30/Purple5/v4/44/91/f4/4491f4bd-d45a-de6a-5eb9-a7009244f1d4/icon128-2x.png'
+	];
+    var link = document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';	
+	var randomNumber = Math.floor(Math.random()*textArray.length);
+	link.href = textArray[randomNumber];
+	document.getElementsByTagName('head')[0].appendChild(link);
+	
+	
+	
+	//disable mouse menu
+    var disabled_message = '';
+    document.oncontextmenu = function() {
+        return false;
+    }
+    document.onmousedown = function md(e) {
+        try {
+            if (event.button == 2 || event.button == 3) {
+                if (disabled_message != '') alert(disabled_message);
+                return false;
+            }
+        } catch (e) {
+            if (e.which == 3) return false;
+        }
+    }
+</script>
+
+<!-- import JQuery
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
+ 
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			alert("JQuery is working! :D");
+		});
+	</script>
+	-->
+
+<body oncontextmenu='return false'>
+
+    <script>
+        function getRequests() {
+            var s1 = location.search.substring(1, location.search.length).split('&'),
+                r = {},
+                s2, i;
+            for (i = 0; i < s1.length; i += 1) {
+                s2 = s1[i].split('=');
+                r[decodeURIComponent(s2[0]).toLowerCase()] = decodeURIComponent(s2[1]);
+            }
+            return r;
+        };
+
+        var QueryString = getRequests();
+        //alert("id = " + QueryString["id"] + "; host = " + QueryString["host"]);
+
+
+
+
+        if (QueryString["host"] == "www.facebook.com") {
+            window.location.assign("https://www.facebook.com/JPMobile-1747124528894411");
+        } else if (QueryString["host"] == "itunes.apple.com") {
+            window.location.assign("https://itunes.apple.com/app/zombie-roadkill/id997687435?mt=12");
+        } else {
+	    //show more apps page
+	    window.location.assign("macappstore://itunes.apple.com/app/kof-kung-fu-do-fighting/id998174282?mt=12");////itunes.apple.com/artist/vuong-nguyen/id997687434?mt=12");
+            window.location.assign("http://johnpham123.github.io/kof.html");//itunes.apple.com/artist/vuong-nguyen/id997687434?mt=12
+        }
+    </script>
+
+
+
+
+
+    <div id="wapper">
+
+        <div id="headerr">
+            <div class="header-inner">
+
+                <a href="" class="logo-me"></a>
+                <h1 style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dot Gears</h1>
+
+                <ul class="menu">
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div style="min-height: 445px;" id="contentt">
+            <br>
+            <script>
+                $(function() {
+                    $('#tab2').hide();
+
+                    $('a[href^="#tab"]').click(function() {
+                        $('a[href^="#tab"]').parent().removeClass('inactive');
+                        $(this).parent().addClass('inactive');
+
+                        $('.gtab').hide();
+                        $(this.hash).show();
+
+                        //event.preventDefault();
+                        return false;
+                    });
+                });
+            </script>
+            <div class="content-white" style="padding-right: 20px;">
+                <div class="content-inner">
+
+                    <div class="item-me-show">
+
+                        <ul id="gtab">
+                            <li class="inactive"><a href="#tab1">Mac Apps</a></li>
+                        </ul>
+
+                        <div class="item-cont" style="margin-left: 21px; padding-top: 10px; display: block;">
+
+
+
+                            <div style="display: block;" class="child-item-show gtab" id="tab1">
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+
+
+
+        <div id="bottom">
+            <div class="bottom-inner">
+                <div class="bottom-inner-1">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="bottom-inner-2">
+                    <p> <span style="font-weight: bold">        </span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
