@@ -25,23 +25,14 @@
 	</dict>
 	<key>4. Test 2</key>
 	<dict>
-		<key>2. JomJom</key>
+		<key>test</key>
 		<dict>
 			<key>markAsNewGame</key>
 			<true/>
 			<key>iconURL</key>
 			<string>https://ssl.vn/wp-content/uploads/2016/12/Free_SSL_logo_rounded.png</string>
 			<key>zipURL</key>
-			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21116&amp;authkey=AMy8J3VRIxODmTk</string>
-		</dict>
-		<key>1. Mini Muncher</key>
-		<dict>
-			<key>markAsNewGame</key>
-			<false/>
-			<key>iconURL</key>
-			<string>https://www.instantssl.com/images/ev-ssl/https-ev-ssl.png</string>
-			<key>zipURL</key>
-			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21115&amp;authkey=ANzkWjGj1FTXL9E</string>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21118&amp;authkey=AN11uKzRNc_EKts</string>
 		</dict>
 	</dict>
 </dict>
