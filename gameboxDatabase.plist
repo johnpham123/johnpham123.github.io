@@ -790,7 +790,7 @@
 		<key>_Fruit Gardener</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -799,7 +799,7 @@
 		<key>_JomJom</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -808,7 +808,7 @@
 		<key>_Jumping Rock</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -817,7 +817,7 @@
 		<key>_Jungle Collapse</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -826,7 +826,7 @@
 		<key>_Lazors</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -835,7 +835,7 @@
 		<key>_Maze Monster</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -844,7 +844,7 @@
 		<key>_Memory Race</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -853,7 +853,7 @@
 		<key>_Mini Muncher</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -862,7 +862,7 @@
 		<key>_Wipo</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
