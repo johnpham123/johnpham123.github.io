@@ -772,7 +772,7 @@
 		<key>_ABC Touch And Learn</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
@@ -781,7 +781,7 @@
 		<key>_Blowball</key>
 		<dict>
 			<key>markAsNewGame</key>
-			<false/>
+			<true/>
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
