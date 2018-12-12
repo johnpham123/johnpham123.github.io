@@ -2,6 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>test</key>
+	<dict>
+		<key>AddBubbles</key>
+		<dict>
+			<key>markAsNewGame</key>
+			<true/>
+			<key>iconURL</key>
+			<string></string>
+			<key>zipURL</key>
+			<string></string>
+		</dict>
+		<key>_2048 Super Plus</key>
+		<dict>
+			<key>markAsNewGame</key>
+			<true/>
+			<key>iconURL</key>
+			<string></string>
+			<key>zipURL</key>
+			<string></string>
+		</dict>
+	</dict>
 	<key> </key>
 	<dict>
 		<key>Airport Buzz</key>
@@ -777,6 +798,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21219&amp;authkey=APLhRNi78y-sZw8</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Blowball</key>
 		<dict>
@@ -786,6 +809,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21189&amp;authkey=ABn-QRxPMZSBfCs</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Fruit Gardener</key>
 		<dict>
@@ -795,6 +820,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21191&amp;authkey=ALb8lLgSoKIWf0k</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_JomJom</key>
 		<dict>
@@ -804,6 +831,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21188&amp;authkey=AHV7cKIDbM4P6dY</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Jumping Rock</key>
 		<dict>
@@ -812,7 +841,9 @@
 			<key>iconURL</key>
 			<string></string>
 			<key>zipURL</key>
-			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21187&amp;authkey=AAW2WKJTKPmpYs8</string>
+			<string>https://github.com/johnpham123/johnpham123.github.io/blob/master/_Jumping%20Rock.unity?raw=true</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Jungle Collapse</key>
 		<dict>
@@ -822,6 +853,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21186&amp;authkey=AIKDLgdw-G6bfvA</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Lazors</key>
 		<dict>
@@ -831,6 +864,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21185&amp;authkey=AJ3bYfKz-j3GGB0</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Maze Monster</key>
 		<dict>
@@ -840,6 +875,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21184&amp;authkey=AAp1p7MPD-LkPZQ</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Memory Race</key>
 		<dict>
@@ -849,6 +886,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21220&amp;authkey=ADj91cwCO6BqhgQ</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Mini Muncher</key>
 		<dict>
@@ -858,6 +897,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21181&amp;authkey=AG_y9-3EWuYVu7A</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 		<key>_Wipo</key>
 		<dict>
@@ -867,6 +908,8 @@
 			<string></string>
 			<key>zipURL</key>
 			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21183&amp;authkey=AH892kj9ANeaeYw</string>
+			<key>zipURL2</key>
+			<string>https://onedrive.live.com/download?cid=FFEB4D705259F2CB&amp;resid=FFEB4D705259F2CB%21221&amp;authkey=ALnVusQ8eAJ5ZSk</string>
 		</dict>
 	</dict>
 </dict>
